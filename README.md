@@ -1,15 +1,22 @@
 # Certifiably-Robust-Image-Watermark
 This code is the official implementation of our ECCV'24 paper: Certifiably-Robust-Image-Watermark [Paper](https://arxiv.org/abs/2407.04086).
 
+
 ## Preparation
 
 1. Clone this repo from the GitHub.
-	
-		git clone https://github.com/zhengyuan-jiang/Watermark-Library.git
+
+```
+git clone https://github.com/zhengyuan-jiang/Watermark-Library.git
+```		
 
 2. Setup environment.
 
+All experiments are run on a single RTX-6000 with 24GB GPU memory.
 
+```
+pip install -r requirements.txt
+```	
 
 3. Download checkpoint files.
 
@@ -17,7 +24,7 @@ You can download standard.pth [Here](https://drive.google.com/file/d/1FazyK9XtWR
 
 4. Download non-AI-generated image testing set.
 
-You can download the testing set [Here](https://drive.google.com/file/d/1pNHGW94UbFcabvxN8QXNRSxTCqu7C-NJ/view?usp=sharing).
+You can download the testing set [Here](https://drive.google.com/file/d/1pNHGW94UbFcabvxN8QXNRSxTCqu7C-NJ/view?usp=sharing). Note that you can use your own model by modifying network.py or use your datasets.
 
 
 ## Evaluate certified robustness
@@ -46,4 +53,17 @@ Evaluate certified robustness of different size of randomized noises:
 
 ```
 python3 compare_sigma.py
+```
+
+
+## Citation
+
+If you find our work useful for your research, please consider citing the paper
+```
+@inproceedings{jiang2024certifiably,
+  title={Certifiably Robust Image Watermark},
+  author={Jiang, Zhengyuan and Guo, Moyang and Hu, Yuepeng and Jia, Jinyuan and Gong, Neil Zhenqiang},
+  booktitle={European Conference on Computer Vision},
+  year={2024}
+}
 ```
