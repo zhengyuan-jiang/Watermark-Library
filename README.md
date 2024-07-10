@@ -20,16 +20,16 @@ pip install -r requirements.txt
 
 3. Download checkpoint files.
 
-You can download standard.pth [Here](https://drive.google.com/file/d/1FazyK9XtWR05Y8c1565bve-1rayueC3b/view?usp=sharing) and adversarial.pth [Here](https://drive.google.com/file/d/1AG-ZoB6w1Z6eV7AlpeT5Su7_cUqTgRIO/view?usp=drive_link). Move them into checkpoint folder.
+You can download standard.pth [here](https://drive.google.com/file/d/1FazyK9XtWR05Y8c1565bve-1rayueC3b/view?usp=sharing) and adversarial.pth [here](https://drive.google.com/file/d/1AG-ZoB6w1Z6eV7AlpeT5Su7_cUqTgRIO/view?usp=drive_link). Move them into the `checkpoint` folder.
 
 4. Download non-AI-generated image testing set.
 
-You can download the testing set [Here](https://drive.google.com/file/d/1pNHGW94UbFcabvxN8QXNRSxTCqu7C-NJ/view?usp=sharing). Note that you can use your own model by modifying network.py or use your datasets.
+You can download the testing set [here](https://drive.google.com/file/d/1pNHGW94UbFcabvxN8QXNRSxTCqu7C-NJ/view?usp=sharing). You can also use use your own datasets or use your model by modifying `network.py`.
 
 
 ## Evaluate certified robustness
 
-Note that you should set num_noise to be 10000 (which is consistent to the paper) if you wish to get the same results. Generally, given a larger num_noise, the estimation of certified robustness will be more accurate, but will also cost more time.
+Note that you should set `num_noise` to 10000 (which is consistent with the paper) if you wish to get the same results. Generally, with a larger `num_noise`, the estimation of certified robustness will be more accurate, but it will also take more time.
 
 Evaluate certified robustness of multi-class, multi-label, and regression based smoothing methods:
 
