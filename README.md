@@ -24,7 +24,7 @@ You can download standard.pth [here](https://drive.google.com/file/d/1FazyK9XtWR
 
 4. Download non-AI-generated image testing set.
 
-You can download the testing set [here](https://drive.google.com/file/d/1pNHGW94UbFcabvxN8QXNRSxTCqu7C-NJ/view?usp=sharing). You can also use use your own datasets or use your model by modifying `network.py`.
+You can download the testing set [here](https://drive.google.com/file/d/1pNHGW94UbFcabvxN8QXNRSxTCqu7C-NJ/view?usp=sharing). You can also use your own datasets or use your model by modifying `network.py`.
 
 
 ## Evaluate certified robustness
