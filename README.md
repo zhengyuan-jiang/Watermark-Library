@@ -69,9 +69,10 @@ If you find our work useful for your research, please consider citing the paper
 ```
 
 For our other interesting watermarking works, please refer as follows:
+
 [WEvade](https://github.com/zhengyuan-jiang/WEvade) (white-box and black-box attacks to image watermarks)
 ```
-@inproceedings{jiang2024certifiably,
+@inproceedings{jiang2023evading,
   title={Evading watermark based detection of AI-generated content},
   author={Jiang, Zhengyuan and Zhang, Jinghuai and Gong, Neil Zhenqiang},
   booktitle={ACM Conference on Computer and Communications Security (CCS)},
