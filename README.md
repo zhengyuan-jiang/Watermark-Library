@@ -67,3 +67,24 @@ If you find our work useful for your research, please consider citing the paper
   year={2024}
 }
 ```
+
+For our other interesting watermarking works, please refer as follows:
+[WEvade](https://github.com/zhengyuan-jiang/WEvade) (white-box and black-box attacks to image watermarks)
+```
+@inproceedings{jiang2024certifiably,
+  title={Evading watermark based detection of AI-generated content},
+  author={Jiang, Zhengyuan and Zhang, Jinghuai and Gong, Neil Zhenqiang},
+  booktitle={ACM Conference on Computer and Communications Security (CCS)},
+  year={2023}
+}
+```
+
+[Watermark-based attribution](https://arxiv.org/abs/2404.04254) with theoretical guarantees 
+```
+@article{jiang2024watermark,
+  title={Watermark-based Detection and Attribution of AI-Generated Content},
+  author={Jiang, Zhengyuan and Guo, Moyang and Hu, Yuepeng and Gong, Neil Zhenqiang},
+  journal={arXiv preprint arXiv:2404.04254},
+  year={2024}
+}
+```
